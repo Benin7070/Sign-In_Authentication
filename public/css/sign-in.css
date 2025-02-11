@@ -1,0 +1,28 @@
+.total{
+    display: grid;
+    grid-template-rows:60px 230px;
+    border: 1px solid grey;
+    text-align: center; 
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+}
+body{
+    margin-top: 70px;
+}
+.container{
+    display:grid;
+    grid-template-rows: 110px 60px;
+}
+.main_form{
+    display:grid;
+    grid-template-rows: 40px 40px 40px ;
+}
+.submit-button{
+    margin-left:auto;
+    margin-right:auto;
+    padding:0px 25px;
+    border: 1px solid grey;
+    border-radius: 19px;
+    cursor: pointer;
+}
